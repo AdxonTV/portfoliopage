@@ -149,7 +149,7 @@ export default function Home() {
       <div className="flex opacity-[2%] z-[22222] fixed"> 
         <Image
         alt=""
-          src="/img/Noisebg.gif "
+          src="img/Noisebg.gif "
           className="h-full pointer-events-none w-[10vw] fixed z-[100000]"
         />
         <Image
@@ -159,35 +159,35 @@ export default function Home() {
         />
         <Image
         alt=""
-          src="/img/Noisebg.gif "
+          src="img/Noisebg.gif "
           className="h-full pointer-events-none w-[10vw] ml-[20vw] fixed z-[100000]"
         />
         <Image
         alt=""
-          src="/img/Noisebg.gif "
+          src="img/Noisebg.gif "
           className="h-full pointer-events-none w-[10vw] ml-[30vw] fixed z-[100000]"
         />
         <Image
         alt=""
-          src="/img/Noisebg.gif "
+          src="img/Noisebg.gif "
           className="h-full pointer-events-none w-[10vw] ml-[40vw] fixed z-[100000]"
         />
         <Image
         alt=""
-          src="/img/Noisebg.gif "
+          src="img/Noisebg.gif "
           className="h-full pointer-events-none w-[10vw] ml-[50vw] fixed z-[100000]"
         />
         <img
-          src="/img/Noisebg.gif "
+          src="img/Noisebg.gif "
           className="h-full pointer-events-none w-[10vw] ml-[60vw] fixed z-[100000]"
         />
         <img
-          src="/img/Noisebg.gif "
+          src="img/Noisebg.gif "
           className="h-full pointer-events-none w-[10vw] ml-[70vw] fixed z-[100000]"
         />
         <Image
         alt=""
-          src="/img/Noisebg.gif "
+          src="img/Noisebg.gif "
           className="h-full pointer-events-none w-[10vw] ml-[80vw] fixed z-[100000]"
         />
         <Image
