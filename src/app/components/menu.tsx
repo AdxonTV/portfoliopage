@@ -10,7 +10,7 @@ const Menu = () => {
     <div className="font-[nohemi] flex justify-between mt-[2vh] ml-[1.5vh] borderbottomd">
       <div className="flex flex-col justify-between mb-[3vh]">
         <div className="text-[40px] leading-[38px] mb-[3vh]"> 
-          DESIGNED TO <br /> SHOW WORK
+          DESIGNED TA <br /> SHOW WORK
         </div>
         <div className="flex gmail justify-between ">
           <div>SUPPORT@GMAIL.COM</div>
