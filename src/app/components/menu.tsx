@@ -13,7 +13,7 @@ const Menu = () => {
           DESIGNED TA <br /> SHOW WORK
         </div>
         <div className="flex gmail justify-between ">
-          <div>SUPPORT@GMAIL.COM</div>
+          <div>SUPPORT@MAIL.COM</div>
           <Image className="thearrow" src="/img/LINEUP.svg" alt="" />
         </div>
       </div>
