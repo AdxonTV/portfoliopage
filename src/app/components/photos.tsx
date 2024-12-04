@@ -32,13 +32,13 @@ const Photos = () => {
 
   return (
     <div className="w-[25vw] h-full">
-      <div className="w-[25vw] bg-[#CCC6B4] z-50 h-[5vh] flex items-center textcolor fixed ">
+      <div className="w-[25vw] bg-[#ECE7E3] z-50 h-[5vh] flex items-center textcolor fixed ">
         <div className="flex justify-between mx-4 w-full items-center z-50 ">
           <span>ADAM MARKOWSKI</span>
           <span>(2008)</span>
         </div>
       </div>
-      <div className="w-[25vw] bg-[#CCC6B4] z-50 mt-[4.5vh] bordertop borderbottom h-[5vh] flex items-center textcolor fixed ">
+      <div className="w-[25vw] bg-[#ECE7E3] z-50 mt-[4.5vh] bordertop borderbottom h-[5vh] flex items-center textcolor fixed ">
         <div className="flex justify-between mx-4 w-full items-center z-50 ">
           <span>NAME</span>
           <span>(YEAR)</span>
@@ -54,7 +54,7 @@ const Photos = () => {
     <div className="pb-6">
     {photos.map((list, index) => (
     <div key={`${list.id}-${index}`}> {/* Unique key here */}
-        <Image className="box w-[23vw] ml-[1vw]" alt="" src={list.image} />
+        <Image className="box w-[23vw] ml-[1vw]" width={1000} height={1000} alt="" src={list.image} />
         <div className="flex justify-between mx-4 w-[23vw] items-center mb-[2vw]">
             {list.textLists.map((text, textIndex) => (
                 <p className="font-mono opacity-35 font-extralight" key={`${list.id}-${textIndex}`}>{text}</p> // Ensure uniqueness

@@ -71,62 +71,55 @@ export default function Home() {
       }
 
       // Logika dla zmiany loadbar
-      if (i > 55) {
+      if (i > 35) {
         console.log("YOU DID IT:", i);
         i = 55; // Resetuje lub zmienia jak potrzeba
         gsap.to(".animation", { y: -650 });
       }
 
       // Logika dla loadbar
-      if (i < 0) {
-        gsap.to("#loadbar", { x: -350 });
-      }
-      if (i === 2) {
-        gsap.to("#loadbar", { x: -180 });
-      }
-      if (i === 5) {
-        gsap.to("#loadbar", { x: -160 });
-      }
-      if (i === 7) {
-        gsap.to("#loadbar", { x: -150 });
-      }
-      if (i === 9) {
-        gsap.to("#loadbar", { x: -145 });
-      }
-      if (i === 2 * 5) {
-        gsap.to("#loadbar", { x: -140 });
-      }
+    // Ustawienia progów dla `i`
+if (i < 0) {
+  gsap.to("#loadbar", { x: -350 });
+}
+if (i === 1) {
+  gsap.to("#loadbar", { x: -250 });
+}
+if (i === 3) {
+  gsap.to("#loadbar", { x: -200 });
+}
+if (i === 5) {
+  gsap.to("#loadbar", { x: -180 });
+}
+if (i === 7) {
+  gsap.to("#loadbar", { x: -150 });
+}
+if (i === 9) {
+  gsap.to("#loadbar", { x: -130 });
+}
+if (i === 10) {
+  gsap.to("#loadbar", { x: -115 });
+}
+if (i === 12) {
+  gsap.to("#loadbar", { x: -100 });
+}
+if (i === 15) {
+  gsap.to("#loadbar", { x: -80 });
+}
+if (i === 20) {
+  gsap.to("#loadbar", { x: -60 });
+}
+if (i === 25) {
+  gsap.to("#loadbar", { x: -40 });
+}
+if (i === 30) {
+  gsap.to("#loadbar", { x: -20 });
+}
+if (i >= 35) { // Zmniejszamy końcowy próg, np. do 35
+  gsap.to("#loadbar", { x: 0 });
+  i = 35; // Ustal maksymalną wartość `i` na 35
+}
 
-      if (i === 3 * 5) {
-        gsap.to("#loadbar", { x: -130 });
-      }
-      if (i === 3 * 6) {
-        gsap.to("#loadbar", { x: -115 });
-      }
-      if (i === 19) {
-        gsap.to("#loadbar", { x: -100 });
-      }
-      if (i === 4 * 5) {
-        gsap.to("#loadbar", { x: -82 });
-      }
-      if (i === 5 * 5) {
-        gsap.to("#loadbar", { x: -80 });
-      }
-      if (i === 6 * 5) {
-        gsap.to("#loadbar", { x: -60 });
-      }
-      if (i === 7 * 5) {
-        gsap.to("#loadbar", { x: -40 });
-      }
-      if (i === 8 * 5) {
-        gsap.to("#loadbar", { x: -20 });
-      }
-      if (i === 9 * 5) {
-        gsap.to("#loadbar", { x: -10 });
-      }
-      if (i === 55) {
-        gsap.to("#loadbar", { x: 0 });
-      }
       
       // Resetowanie flagi przewijania po przewinięciu
      
@@ -149,58 +142,18 @@ export default function Home() {
       <div className="flex opacity-[2%] z-[22222] fixed"> 
         <Image
         alt=""
-          src="img/Noisebg.gif "
+          src="/img/Noisebg.gif "
+          width={500}  // podaj odpowiednią szerokość
+          height={500} 
           className="h-full pointer-events-none w-[10vw] fixed z-[100000]"
         />
-        <Image
-        alt=""
-          src="/img/Noisebg.gif "
-          className="h-full pointer-events-none w-[10vw] ml-[10vw] fixed z-[100000]"
-        />
-        <Image
-        alt=""
-          src="img/Noisebg.gif "
-          className="h-full pointer-events-none w-[10vw] ml-[20vw] fixed z-[100000]"
-        />
-        <Image
-        alt=""
-          src="img/Noisebg.gif "
-          className="h-full pointer-events-none w-[10vw] ml-[30vw] fixed z-[100000]"
-        />
-        <Image
-        alt=""
-          src="img/Noisebg.gif "
-          className="h-full pointer-events-none w-[10vw] ml-[40vw] fixed z-[100000]"
-        />
-        <Image
-        alt=""
-          src="img/Noisebg.gif "
-          className="h-full pointer-events-none w-[10vw] ml-[50vw] fixed z-[100000]"
-        />
-        <img
-          src="img/Noisebg.gif "
-          className="h-full pointer-events-none w-[10vw] ml-[60vw] fixed z-[100000]"
-        />
-        <img
-          src="img/Noisebg.gif "
-          className="h-full pointer-events-none w-[10vw] ml-[70vw] fixed z-[100000]"
-        />
-        <Image
-        alt=""
-          src="img/Noisebg.gif "
-          className="h-full pointer-events-none w-[10vw] ml-[80vw] fixed z-[100000]"
-        />
-        <Image
-        alt=""
-          src="/img/Noisebg.gif "
-          className="h-full pointer-events-none w-[10vw] ml-[90vw] fixed z-[100000]"
-        />
+       
       </div>
 
       <div id="smooth-wrapper">
         <div id="smooth-content">
           {/* ALL YOUR CONTENT HERE */}
-          <div className="flex bg-[#CCC6B4]">
+          <div className="flex bg-[#ECE7E3]">
             <div className="flex flex-row">
               <Photos />
               <div className="fixed left-[25vw]">

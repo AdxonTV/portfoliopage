@@ -16,11 +16,11 @@ const Option : React.FC<Props> = ({name, text}) => {
         className="flex look"
         
       >
-        <div className="pr-14 w-[155px]  "
+        <div className="pr-14 w-[155px]  text-[1.5vw]"
         >{name}</div>
 
-        <div className="text-[14px] font-mono ">
-          <TextAppear texy={text} start={startAnimation} />
+        <div className=" font-mono ">
+          <TextAppear  texy={text} start={startAnimation} />
         </div>
       </div>
     </span>

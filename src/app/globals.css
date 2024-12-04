@@ -148,3 +148,6 @@ TEKST OVER 20+WORKS
 cursor: pointer;
   transition: 1s;
 }
+span{
+font-size: 0.6vw;
+}

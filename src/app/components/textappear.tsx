@@ -62,7 +62,7 @@ const TextAppear: React.FC<MyComponentProps> = ({ texy, start }) => {
     <div className="screen">
       <div
         ref={nameRef}
-        className="name text-[#797670] w-[3.5vw] h-fit"
+        className="name text-[#000000] w-[3.5vw] h-fit"
         data-value={texy}
       >
         {texy}

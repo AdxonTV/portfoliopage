@@ -15,7 +15,8 @@ interface Props{
 const Aphoto: React.FC<Props> = ({title, subtitle, midtitle}) => {
   return (
     <div className="font-mono">
-    <Image src="/img/p1.jpg" alt="x" className="box" />
+    <Image   width={500}  // podaj odpowiednią szerokość
+  height={500} src="/img/p1.jpg" alt="x" className="box" />
 
     <div className="flex w-full  justify-between">
       <div>{title}</div>

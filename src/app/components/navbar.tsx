@@ -13,9 +13,9 @@ function Navbar() {
       </div>
 
       <div className="flex items-center w-[10vw] ml-[9vw]  justify-around ">
-      <Image src="/img/Group 240.svg" alt="" />
+      <Image   width={7} height={4}src="/img/Group 240.svg" alt="" />
       <span>WARSAW</span>
-        <Image src="/img/arrow.svg" alt="" />
+        <Image   width={15} height={15} src="/img/arrow.svg" alt="" />
         <span>POLAND</span>
       </div>
 

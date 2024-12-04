@@ -59,7 +59,7 @@ const Text: React.FC<MyComponentProps> = ({ texy }) => {
 
   return (
     <div ref={screenRef} className="screen">
-      <div ref={nameRef} className="name w-[3.5vw] h-fit text-[#171615]" data-value={texy}>
+      <div ref={nameRef} className="name  h-fit " data-value={texy}>
         {texy}
       </div>
     </div>
