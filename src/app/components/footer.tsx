@@ -64,7 +64,7 @@ const Footer = () => {
      
         </div>
         </div>
-        <div>GOBOLAB@GMAIL.COM</div></div>
+        <div className="underline">GOBOLAB@GMAIL.COM</div></div>
       <div className="text-[22vw]  top-[22220px] w-full text-center absolut leading-[90%]   py-[5vw]">(FOOTER)</div>
       <div className="absolut w-[20vw]"></div>
       </div></div>

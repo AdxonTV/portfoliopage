@@ -9,7 +9,7 @@ const Loadbar = () => {
         id="loadbar-con"
         className=" overflow-hidden w-[12vw] bg-[#565550] flex h-[0.3vh]  z-[1000]"
       >
-        <div id="loadbar" className="bg-[#e57c40] h-full w-[12vw] "></div>
+        <div id="loadbar" className="bg-red-500 h-full w-[12vw] "></div>
       </div>
 
      

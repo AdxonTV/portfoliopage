@@ -6,7 +6,7 @@ export const infophotos = [
       "//Tag //Paint //Tag",
       "2019",
     ],
-    image: "/img/p1.jpg",
+    image: "/gallery/Mysterious Fabric-Covered Portrait.jpeg",
 
   },
   {
@@ -16,7 +16,7 @@ export const infophotos = [
       "//Tag //Paint //Tag",
       "2000",
     ],
-    image: "/img/me.png",
+    image: "/gallery/Masked Emotions Portrait.jpeg",
 
   },
   {
@@ -26,7 +26,7 @@ export const infophotos = [
       "(Index, Paint, Tools)",
       "2024",
     ],
-    image: "/img/p1.jpg",
+    image: "/gallery/Masked Figure in Monochrome.jpeg",
 
   },
   {
@@ -36,7 +36,7 @@ export const infophotos = [
     "(Index, Paint, Tools)",
       "2024",
     ],
-    image: "/img/forabozo-mimimi.gif",
+    image: "/gallery/Minimalist Interior with Elegant Armchair.jpeg",
 
   },
   {
@@ -46,7 +46,7 @@ export const infophotos = [
    "(Index, Paint, Tools)",
       "2024",
     ],
-    image: "/img/image.png",
+    image: "/gallery/Mysterious Fabric-Covered Portrait.jpeg",
 
   },
 ];
